@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f5f0e1;
+  color: #444;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(135deg, #dac9df, #fefcf9);
+  padding: 60px 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+nav {
+  background: #e7d4e8;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #6a1b9a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+section {
+  padding: 60px 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.cta {
+  background: #dac9df;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2em;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #b5874e;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: #6a1b9a;
+  color: white;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+footer a {
+  color: #ffe082;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  .cta a {
+    padding: 10px 20px;
+  }
+}
